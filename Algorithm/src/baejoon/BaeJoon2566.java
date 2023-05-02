@@ -2,14 +2,14 @@ package baejoon;
 
 import java.util.Scanner;
 
-public class BaeJoon2556 {
+public class BaeJoon2566 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int arr[][] = new int [9][9];  // 9 9 2차원 정변 배열 선언
 		int max = -1; //  최대값 저장할 변수
-		int x=0;	// 좌표값
-		int y=0;	// 좌표값
+		int x=0;	// 행 좌표값
+		int y=0;	// 열 좌표값
 		for(int i=0;i<arr.length;i++) {			//배열에 값저장
 			for(int j=0;j<arr[i].length;j++) {
 				arr[i][j] = sc.nextInt();
