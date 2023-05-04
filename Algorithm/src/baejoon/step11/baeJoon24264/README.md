@@ -20,7 +20,7 @@ MenOfPassion(A[], n) {
             sum <- sum + A[i] × A[j]; # 코드1
     return sum;
 }
-코드가 자바랑 다르다
+코드가 자바랑 다르다 \n
 바꿔보면
 int sum=0;
 for(int i=0;i<n;i++){
