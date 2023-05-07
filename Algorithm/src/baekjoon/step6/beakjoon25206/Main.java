@@ -1,4 +1,4 @@
-package baekjoon.string.baekjoon25206;
+package baekjoon.step6.beakjoon25206;
 
 import java.util.Arrays;
 import java.util.Scanner;
