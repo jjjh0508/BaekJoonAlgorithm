@@ -19,6 +19,8 @@ public class Main {
 			sum+=card[i];
 		}
 		System.out.println(sum);
+		sc.close();
 	}
+	
 
 }

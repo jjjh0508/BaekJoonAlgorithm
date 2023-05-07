@@ -16,6 +16,7 @@ public class Main {
 		}else if(a==b) {
 			System.out.println("==");
 		}
+		sc.close();
 	}
 }
 

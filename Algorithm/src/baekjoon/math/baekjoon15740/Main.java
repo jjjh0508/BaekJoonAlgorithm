@@ -11,6 +11,7 @@ public class Main {
 		BigInteger b = sc.nextBigInteger();
 		
 		System.out.println(a.add(b));
+		sc.close();
 	}
 
 }

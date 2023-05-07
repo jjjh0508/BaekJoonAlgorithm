@@ -13,6 +13,7 @@ public class Main {
 			fac *=i;
 		}
 		System.out.println(fac);
+		sc.close();
 	}
 
 }

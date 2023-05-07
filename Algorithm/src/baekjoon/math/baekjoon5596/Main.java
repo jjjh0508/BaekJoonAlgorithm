@@ -24,6 +24,7 @@ public class Main {
 		}else {
 			System.out.println(t);
 		}
+		sc.close();
 	}
 
 }

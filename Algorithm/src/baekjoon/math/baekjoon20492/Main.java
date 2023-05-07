@@ -13,7 +13,7 @@ public class Main {
 		int b = (int) (a-(a*0.22));
 		int c= (int) (a-(a-(a*0.8))*0.22);
 		System.out.println(b+" "+c);
-		
+		sc.close();
 	}
 
 }

@@ -9,6 +9,8 @@ public class Main {
 		long a= sc.nextLong();
 		long b =sc.nextLong();
 		System.out.println((a+b)*(a-b));
+		sc.close();
+		
 	}
 
 }

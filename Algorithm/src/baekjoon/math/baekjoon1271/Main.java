@@ -12,6 +12,7 @@ public class Main {
 		
 		System.out.println(n.divide(m));
 		System.out.println(n.remainder(m));
+		sc.close();
 	}
 
 }

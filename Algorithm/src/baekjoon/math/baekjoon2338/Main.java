@@ -18,6 +18,7 @@ public class Main {
 		System.out.println(a.add(b));
 		System.out.println(a.subtract(b));
 		System.out.println(a.multiply(b));
+		sc.close();
 		
 	}
 

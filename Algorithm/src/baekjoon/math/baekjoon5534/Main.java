@@ -31,7 +31,7 @@ public class Main {
 		}
 		Arrays.sort(set);
 		System.out.println(set[0]);
-		
+		sc.close();
 		
 	}
 

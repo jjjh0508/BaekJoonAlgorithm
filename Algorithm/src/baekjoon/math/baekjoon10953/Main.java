@@ -16,6 +16,7 @@ public class Main {
 			String[] str = sc.nextLine().split(",");
 			System.out.println(Integer.parseInt(str[0])+Integer.parseInt(str[1]));
 		}
+		sc.close();
 	}
 
 }

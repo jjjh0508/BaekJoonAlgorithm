@@ -15,6 +15,7 @@ public class Main {
 		if(result<0) {
 			result=0;
 		}
+		sc.close();
 		System.out.println(result);
 	}
 

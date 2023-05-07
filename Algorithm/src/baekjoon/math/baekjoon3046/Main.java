@@ -13,7 +13,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int r1 =sc.nextInt();
 		int s = sc.nextInt();
-		
+		sc.close();
 	
 		System.out.println((s*2)-r1);
 	}

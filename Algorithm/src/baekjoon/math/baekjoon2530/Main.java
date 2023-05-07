@@ -27,7 +27,7 @@ public class Main {
 		
 		System.out.println(hour%24+" "+minute%60+" "+seconds%60);
 		
-		
+		sc.close();
 	}
 
 }

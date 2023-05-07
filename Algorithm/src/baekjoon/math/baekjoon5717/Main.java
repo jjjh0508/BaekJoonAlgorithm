@@ -16,7 +16,9 @@ public class Main {
 			}else {
 				System.out.println(m+f);
 			}
+			
 		}
+		sc.close();
 	}
 
 }

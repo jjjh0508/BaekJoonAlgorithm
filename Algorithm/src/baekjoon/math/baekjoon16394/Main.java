@@ -16,6 +16,7 @@ public class Main {
 		int year = sc.nextInt();
 		int var =  year-1946;
 		System.out.println(var);
+		sc.close();
 	}
 
 }

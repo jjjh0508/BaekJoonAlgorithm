@@ -9,6 +9,7 @@ public class Main {
         Long n= sc.nextLong();
         System.out.println(n*n);
         System.out.println('2');
+        sc.close();
 	}
 
 }

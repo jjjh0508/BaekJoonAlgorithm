@@ -11,6 +11,7 @@ public class Main {
 		 int num2 = sc.nextInt();
 		 
 		 System.out.println((double)num1/num2);
+		 sc.close();
 	}
 
 }

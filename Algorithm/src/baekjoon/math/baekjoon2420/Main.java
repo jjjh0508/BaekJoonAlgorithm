@@ -16,6 +16,7 @@ public class Main {
 			sum = (n-m);
 		}
 		System.out.println(sum);
+		sc.close();
 	}
 
 }
