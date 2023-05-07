@@ -24,6 +24,7 @@ public class Main {
 			sum+=arr[i];
 		}
 		System.out.println(sum/5);
+		sc.close();
 	}
 
 }
