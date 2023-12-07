@@ -1,4 +1,4 @@
-package baekjoon.implementation.baekjoon2740;
+package baekjoon.step26.baekjoon2740;
 
 import java.util.Scanner;
 
