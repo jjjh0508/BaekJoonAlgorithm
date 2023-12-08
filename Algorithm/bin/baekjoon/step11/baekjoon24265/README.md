@@ -8,6 +8,7 @@
 오늘도 서준이는 알고리즘의 수행시간 수업 조교를 하고 있다 </br>
 아빠가 수업한 내용을 학생들이 잘 이해했는지 문제를 통해서 확인해보자 </br>
 입력의 크기n이 주어지면 MenOfPassion 알고리즘 수행 시간을 예제 출력과 같은 방식으로 출력해보자 </br>
+<pre>
 MenOfPassion(A[],n){  </br>
   sum <- 0;  </br>
     for i <- 1 to n - 1  </br>
@@ -15,7 +16,7 @@ MenOfPassion(A[],n){  </br>
             sum <- sum + A[i] × A[j]; # 코드1  </br>
     return sum; </br>
 } </br>
-
+</pre>
 ### 입력
 7  </br>
 첫쨰 줄에 입력의 크기 n(1<=n<=500,000)이 주어진다
