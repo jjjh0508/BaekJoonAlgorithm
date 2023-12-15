@@ -29,7 +29,7 @@ num[0]=0  <br>
 num[1]=1  <br>
 
 
-if(n>2){
+if(n>0){
 
 for(i=2; i<= n ; i++){ <br>
 		num[i]=num[i-2]+num[i-1] <br>
@@ -37,4 +37,5 @@ for(i=2; i<= n ; i++){ <br>
 } <br>
 }
 </pre>
-
+0이 입력 될 경우 크기 1 짜리 배열이 생성되는데 [1]에 접근하기 때문에 ArrayIndexOutOfBounds 에러가 난다
+if(n>0)으로 체크해줘야한다
