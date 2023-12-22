@@ -19,9 +19,9 @@ public class Main {
 				pq.add(Integer.parseInt(br.readLine()));
 			}
 		
-			while (my<=pq.peek()) {
-				int num = pq.poll();
-				num--;
+			while (my<=pq.peek()) {              //큐에 있는 수가 내 표보다 큰 경우에  반복
+				int num = pq.poll();             //젤 큰 수를 꺼내고
+				num--;                           
 				my++;
 				count++;
 				pq.add(num);
